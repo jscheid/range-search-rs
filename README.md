@@ -2,14 +2,9 @@
 
 **Implementation of a Layered Range Tree for two-dimensional data.**
 
-[![](https://docs.rs/range-tree/badge.svg)](https://docs.rs/range-tree/)
-[![](https://img.shields.io/crates/v/range-tree.svg)](https://crates.io/crates/range-tree)
-[![](https://img.shields.io/crates/d/range-tree.svg)](https://crates.io/crates/range-tree)
-[![Build Status](https://github.com/fitzgen/range-tree/workflows/Rust/badge.svg)](https://github.com/jscheid/range-tree/actions?query=workflow%3ARust)
-
 ## Range Search
 
-A [Range Tree][https://en.wikipedia.org/wiki/range_tree] is an ordered tree data
+A [Range Tree](https://en.wikipedia.org/wiki/range_tree) is an ordered tree data
 structure to hold a list of points. It allows all points within a given
 orthogonal (axis-aligned) range to be reported efficiently, and is typically
 used in two or higher dimensions.
